@@ -1,12 +1,30 @@
 #experienceTitle{
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px gray;
 }
-
 #education1{
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px gray;
 }
-
+h2.mb-5{
+    text-shadow: 2px 2px 4px gray;
+}
 .navbar-nav{
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 1px gray;
 }
-
+span.text-secondary{
+    text-shadow: 3px 3px 5px gray;
+}
+/* span.text-primary{
+    text-shadow: 3px 3px 5px gray;
+} */
+div.card-body{
+    box-shadow: 5px 7px 10px 2px;
+}
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.849),rgba(255, 255, 255, 0.63)) , url('https://images.unsplash.com/photo-1594896733292-9a77b5809c63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+.jumbotron{
+    background-image: url(https://images.unsplash.com/photo-1603484477859-abe6a73f9366?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dGV4dHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+}
+div.card.card{
+    background-image: url(https://images.unsplash.com/photo-1603484477859-abe6a73f9366?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dGV4dHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60) ;
+}
