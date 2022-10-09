@@ -7811,7 +7811,8 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #5b9456 !important;
+  background-color: #6db567 !important;
+  linear
 }
 
 .bg-secondary {
@@ -11365,7 +11366,8 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #a34410;
+    opacity: 0.9;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11414,8 +11416,8 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   max-width: 75rem;
   /* background-image:url('https://images.unsplash.com/photo-1594896733292-9a77b5809c63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'); */
 

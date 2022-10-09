@@ -16,13 +16,16 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="stylesheet" href="./css/myStyle.css">
     </head>
+    
     <body id="page-top">
         <!-- Navigation-->
+        <div class=" bg-opacity-25">
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Jason Donley</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profilePicture.jpg" alt="..." /></span>
             </a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
@@ -34,11 +37,11 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards"><u style="color:#a34410">Awards</u></a></li>
                 </ul>
             </div>
+        </div>
         </nav>
         <!-- Page Content-->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <!-- <div>background something something somethign</div> -->
               <h1 style="color:#a34410">Welcome!</h1>
               <p class="lead">My name is Jason, and I'm a professional web & front end developer located in east central Ohio.</p>
             </div>
@@ -184,12 +187,38 @@
                       </div>
                       
                     
-            <!-- Interests-->
+            <!-- Project Portfolio-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Project Portfolio</h2>
-                    <!-- <div class="card"> -->
-                    <div class="#">project-1
+                    <div class="card" >
+                        <div class="card-body">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://i.ytimg.com/vi/WNKb_UPw7go/maxresdefault.jpg" class="d-block w-100" height="425px" width="auto" alt="Madlib Image">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://static.wixstatic.com/media/3edabd_d27e12f7478644bcb31eb503e51458fc~mv2.png/v1/fill/w_640,h_366,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3edabd_d27e12f7478644bcb31eb503e51458fc~mv2.png" class="d-block w-100" height="425px" width="auto" alt="General Portfolio Image">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://live.staticflickr.com/65535/49745699538_9f7fb7686d_b.jpg" class="d-block w-100" height="425px" width="auto" alt="New Projects Coming Soon Image">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                          </div>     
+
+
+
+                    <!-- <div class="#">project-1
                         <div class="row col-md-6"></div>
                     </div>
                     <div class="#">project-2
@@ -200,11 +229,13 @@
                     </div>
                     <div class="#">project-4
                         <div class="row col-md-6"></div>
-                    </div>
+                    </div> -->
             </section>
             <hr class="m-0" />
             </div>
             </div>
+
+            
                     
             <!-- Awards-->
             <section class="resume-section" id="awards">
@@ -250,15 +281,33 @@
                             3
                             <sup>rd</sup>
                             Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>                        </div>
-                      </div>
-                      
-                   
-        <!-- Bootstrap core JS-->
+                            </li>
+                            </ul>
+                            </div>
+                            </section>
+                            </div>
+                            </div>
+                            </div>
+<!-- offcanvas-right -->
+                            
+
+
+<div class="offcanvas offcanvas-end show offcanvas-right" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h3 class="offcanvas-title" id="offcanvasLabel">Attention</h3>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body lead">
+     Please be advised that this portfolio project is a work in progress. Additions and updates are continuously being made to provide you with the most up to date information. <br><br><br> Many thanks,<br> -Jason
+    </div>
+  </div    
+  
+  
+
+
+
+
+         <!-- Bootstrap core JS  -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
