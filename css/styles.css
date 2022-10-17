@@ -11340,6 +11340,8 @@ p.lead {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
+   text-shadow: 5, 5, 15 white;
+   font-size: 18px;
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
